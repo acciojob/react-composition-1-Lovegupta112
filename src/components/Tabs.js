@@ -16,7 +16,7 @@ document.getElementById('result').innerHTML=content;
         <li key={tab.title} onClick={()=>show(tab.content)}>{tab.title}</li>
        ))}
      </ul>
-      <div id="result"></div>
+      <div id="result">This is the content for Tab 1.</div>
       </>
     );
 }
