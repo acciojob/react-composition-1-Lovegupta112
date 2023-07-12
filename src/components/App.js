@@ -25,7 +25,7 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
         <Tabs tabs={tabs}/>
-        <div id="result"></div>
+        {/* <div id="result"></div> */}
     </div>
   )
 }

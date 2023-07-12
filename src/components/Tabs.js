@@ -10,11 +10,14 @@ function show(content){
 document.getElementById('result').innerHTML=content;
 }
     return (
+        <>
      <ul>
        {tabs.map((tab)=>(
         <li key={tab.title} onClick={()=>show(tab.content)}>{tab.title}</li>
        ))}
      </ul>
+      <div id="result"></div>
+      </>
     );
 }
 export default Tabs;
